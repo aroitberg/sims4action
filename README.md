@@ -3,7 +3,7 @@
 
 Welcome to official homepage of the Sims4Action dataset [1]. Sims4Action dataset is built  with  the  popular  commercial  game THE SIMS 4 by specifically executing actions-of-interest in a top-down manner.
 
-This page is currently under construction. Sims4Action download link and the evaluation scripts follow.
+This page is currently **under construction**. Sims4Action download link and the evaluation scripts follow.
 Is you want to obtain our dataset earlier, please do not hesitate to contact [Alina Roitberg](https://cvhci.anthropomatik.kit.edu/~aroitberg) and [David Schneider](https://cvhci.anthropomatik.kit.edu/people_2125.php) .
 
 
@@ -50,7 +50,8 @@ The *Gaming→Real* benchmark comprises evaluation on the external real-life dat
 
 # References 
 
-[1] Let's Play for Action: Recognizing Activities of Daily Living by Learning from Life Simulation Video Games,\
+[1] [Let's Play for Action: Recognizing Activities of Daily Living by Learning from Life Simulation Video Games](http://arxiv.org/abs/2107.05617
+),\
 Alina Roitberg*, David Schneider*, Aulia Djamal, Constantin Seibold, Simon Reiß, Rainer Stiefelhagen,\
 In *International Conference on Intelligent Robots and Systems (IROS)*, 2021
 (* denotes equal contribution.)
