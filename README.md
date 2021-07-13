@@ -1,12 +1,28 @@
 
-# The Sims4Action Dataset
+# The Sims4Action Dataset: a videogame-based dataset for Synthetic→Real domain adaptation for human activity recognition
 
 Welcome to official homepage of the Sims4Action dataset [1]. Sims4Action dataset is built  with  the  popular  commercial  game THE SIMS 4 by specifically executing actions-of-interest in a top-down manner.
 
+This page is currently under construction. Sims4Action download link and the evaluation scripts follow.
+Is you want to obtain our dataset earlier, please do not hesitate to contact [Alina Roitberg](https://cvhci.anthropomatik.kit.edu/~aroitberg) and [David Schneider](https://cvhci.anthropomatik.kit.edu/people_2125.php) .
 
-# Video providing the dataset overview
+
+# Video providing the *Sims4Action* dataset overview
 
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/iSJ0fxXiS6s/0.jpg)](https://youtu.be/iSJ0fxXiS6s "Sims4Action dataset overview.")
+
+
+# Overview
+
+* **Motivation**: Recognizing Activities of Daily Living (ADL) is a vital process for intelligent assistive robots, but collecting large annotated datasets requires time-consuming temporal labeling and raises privacy concerns, e.g., if the data is collected in a real household.
+* **Goal**: explore the concept of constructing training examples for ADL recognition by playing life simulation video games.
+* We introduce the ***Sims4Action*  dataset** created with the popular commercial game THE SIMS 4.
+* We build *Sims4Action* by specifically executing actions-of-interest in a "top-down" manner, while the gaming circumstances allow us to freely switch between environments, camera angles and subject appearances.
+* **Two benchmarks**: Gaming→Gaming and Gaming→Real.
+* **Main challenge - Gaming→Real domain adaptation:** while ADL recognition on gaming data is interesting from the theoretical perspective, the key challenge arises from transferring it to the real-world applications. To meet this requirement, *Sims4Action*  is accompanied with a Gaming→Real benchmark, where the models are evaluated on real videos derived from an existing ADL dataset Toyota Smarthome [2]. 
+* **Baselines**: we evaluate two modern algorithms ([I3D](https://github.com/hassony2/kinetics_i3d_pytorch) and [S3D](https://github.com/kylemin/S3D) ) for video-based activity recognition in our setting.
+* **Baseline Results**: direct cross-domain recognition is a  hard task for modern data-driven algorithms and the performance has large room for improvement, demonstrateing the sensitivity of modern ADL recognition models to domain shifts. Still, all models clearly outperform the random baseline, providing encouraging evidence, that a cheap, synthetic data collection from sources such as life simulation video games is a promising direction for training ADL models.
+
 
 
 # Citation
