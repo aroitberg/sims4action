@@ -50,8 +50,8 @@ The *Gaming→Real* benchmark comprises evaluation on the external real-life dat
 
 # References 
 
-[1] [Let's Play for Action: Recognizing Activities of Daily Living by Learning from Life Simulation Video Games](http://arxiv.org/abs/2107.05617
-),\
+[1] [Let's Play for Action: Recognizing Activities of Daily Living by Learning from Life Simulation Video Games.](http://arxiv.org/abs/2107.05617
+)\
 Alina Roitberg*, David Schneider*, Aulia Djamal, Constantin Seibold, Simon Reiß, Rainer Stiefelhagen,\
 In *International Conference on Intelligent Robots and Systems (IROS)*, 2021
 (* denotes equal contribution.)
