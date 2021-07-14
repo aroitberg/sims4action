@@ -1,0 +1,17 @@
+ActivityToyota;ActivitySims;ActivitySimsNumeric
+Cook.Cut;Cook;0
+Cook.Stir;Cook;0
+Cook.Usestove;Cook;0
+Drink.Frombottle;Drink;1
+Drink.Fromcan;Drink;1
+Drink.Fromcup;Drink;1
+Drink.Fromglass;Drink;1
+Eat.Attable;Eat;2
+Getup;Getup;3
+Readbook;Readbook;4
+Sitdown;Sitdown;3
+Uselaptop;Usecomputer;5
+Usetablet;Usetablet;6
+Usetelephone;Usephone;7
+Walk;Walk;8
+WatchTV;WatchTV;9
