@@ -3,9 +3,12 @@
 
 Welcome to official homepage of the Sims4Action dataset [1]. Sims4Action dataset is built  with  the  popular  commercial  game THE SIMS 4 by specifically executing actions-of-interest in a top-down manner.
 
-This page is currently **under construction**. Instructions to download the Sims4Action videos as well as the evaluation scripts will follow.
-If you want to obtain our dataset earlier, please do not hesitate to contact [Alina Roitberg](https://cvhci.anthropomatik.kit.edu/~aroitberg) or [David Schneider](https://cvhci.anthropomatik.kit.edu/people_2125.php) .
+This page is currently **under construction**. The dataset can already be downloaded [here](https://cvhci.anthropomatik.kit.edu/~aroitberg/datasets/sims4action/Sims4ActionVideos.zip), but detailed instructions and the evaluation scripts will follow.
+If you have any questions, please do not hesitate to contact [Alina Roitberg](https://cvhci.anthropomatik.kit.edu/~aroitberg) or [David Schneider](https://cvhci.anthropomatik.kit.edu/people_2125.php) .
 
+# Dowload the dataset
+
+You can download the dataset [here](https://cvhci.anthropomatik.kit.edu/~aroitberg/datasets/sims4action/Sims4ActionVideos.zip).
 
 # Video providing the *Sims4Action* dataset overview
 
