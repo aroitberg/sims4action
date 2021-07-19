@@ -34,6 +34,22 @@ You can download the dataset [here](https://cvhci.anthropomatik.kit.edu/~aroitbe
 * **Baseline Results**  
   Direct cross-domain recognition is a  hard task for modern data-driven algorithms and the performance has large room for improvement, demonstrating the sensitivity of modern ADL recognition models to domain shifts. Still, all models clearly outperform the random baseline, providing encouraging evidence, that a cheap, synthetic data collection from sources such as life simulation video games is a promising direction for training ADL models.
 
+# Evaluation Protocol
+**Cross-subject evaluation**  
+Training subjects: `[1, 2, 3, 5, 6]`  
+Validation subjects: `[7]`  
+Test subjects: `[4,8]`  
+
+# File Names
+The individual file names are interpretable and consist of 
+* A two letter action code (e.g. `Co` for cooking)
+* Subject and room (e.g. `S7K1` for subject 1 and kitchen 1)
+* A camera identifier, either for a fixed or for a moving camera (e.g. `fC8` or `m3`)
+
+Valid file names would be `Co_S7K1_fC8` or `Co_S4K1_m3`, for example.
+
+The following regular expression can be used to extract the listed information from the file name (without extension):  
+```^([^_]*)_S(\d*)([^_]*\d*)_(fC\d*|m\d*)```
 
 # Citation
 
